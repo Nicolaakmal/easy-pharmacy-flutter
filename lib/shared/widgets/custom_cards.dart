@@ -55,9 +55,9 @@ class _CustomCardState extends State<CustomCard> {
                 height: 100,
                 fit: BoxFit.cover,
               )
-            : SizedBox();
+            : const SizedBox();
       default:
-        return SizedBox();
+        return const SizedBox();
     }
   }
 
@@ -105,9 +105,9 @@ class _CustomCardState extends State<CustomCard> {
             ),
           ),
           if (_isExpanded && widget.child != null) ...[
-            Divider(),
+            const Divider(),
             Container(
-              padding: EdgeInsets.all(16.0),
+              padding: const EdgeInsets.all(16.0),
               alignment: Alignment.centerLeft,
               child: widget.child,
             ),

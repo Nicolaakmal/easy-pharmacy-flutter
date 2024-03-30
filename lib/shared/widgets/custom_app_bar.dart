@@ -27,12 +27,12 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
         return AppBar(
           title: TextField(
             onChanged: onSearch,
-            decoration: InputDecoration(
+            decoration: const InputDecoration(
               hintText: 'Search...',
               border: InputBorder.none,
               hintStyle: TextStyle(color: Colors.white),
             ),
-            style: TextStyle(color: Colors.white),
+            style: const TextStyle(color: Colors.white),
           ),
         );
       case AppBarType.action:
@@ -46,5 +46,5 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 
   @override
-  Size get preferredSize => Size.fromHeight(kToolbarHeight);
+  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 }

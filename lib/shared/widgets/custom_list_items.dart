@@ -48,7 +48,7 @@ class _CustomListItemState extends State<CustomListItem> {
           backgroundImage: AssetImage(widget.imagePath!),
         );
       default:
-        return SizedBox();
+        return const SizedBox();
     }
   }
 
@@ -72,7 +72,7 @@ class _CustomListItemState extends State<CustomListItem> {
           },
         );
       default:
-        return SizedBox();
+        return const SizedBox();
     }
   }
 

@@ -25,22 +25,22 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
       onTap: widget.onTap,
       items: [
         BottomNavigationBarItem(
-          icon: Icon(Icons.home),
+          icon: const Icon(Icons.home),
           label: 'Home',
           backgroundColor: widget.isShifting ? Colors.blue : null,
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.search),
+          icon: const Icon(Icons.search),
           label: 'Search',
           backgroundColor: widget.isShifting ? Colors.red : null,
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.notifications),
+          icon: const Icon(Icons.notifications),
           label: 'Notifications',
           backgroundColor: widget.isShifting ? Colors.green : null,
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.account_circle),
+          icon: const Icon(Icons.account_circle),
           label: 'Profile',
           backgroundColor: widget.isShifting ? Colors.purple : null,
         ),

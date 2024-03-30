@@ -17,7 +17,7 @@ class CustomDialogs {
           ),
           actions: <Widget>[
             TextButton(
-              child: Text('OK'),
+              child: const Text('OK'),
               onPressed: () {
                 Navigator.of(context).pop();
               },
@@ -38,11 +38,11 @@ class CustomDialogs {
           content: Text(message),
           actions: <Widget>[
             TextButton(
-              child: Text('Cancel'),
+              child: const Text('Cancel'),
               onPressed: () => Navigator.of(context).pop(false),
             ),
             TextButton(
-              child: Text('OK'),
+              child: const Text('OK'),
               onPressed: () => Navigator.of(context).pop(true),
             ),
           ],
@@ -60,17 +60,17 @@ class CustomDialogs {
           title: Text(title),
           content: TextField(
             controller: controller,
-            decoration: InputDecoration(hintText: "Enter your input here"),
+            decoration: const InputDecoration(hintText: "Enter your input here"),
           ),
           actions: <Widget>[
             TextButton(
-              child: Text('Cancel'),
+              child: const Text('Cancel'),
               onPressed: () {
                 Navigator.of(context).pop();
               },
             ),
             TextButton(
-              child: Text('OK'),
+              child: const Text('OK'),
               onPressed: () {
                 Navigator.of(context).pop(controller.text);
               },
@@ -114,8 +114,8 @@ class CustomDialogs {
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                CircularProgressIndicator(),
-                SizedBox(width: 20),
+                const CircularProgressIndicator(),
+                const SizedBox(width: 20),
                 Text(message),
               ],
             ),
