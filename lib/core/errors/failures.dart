@@ -1,0 +1,1 @@
+// Mendefinisikan kelas Failure umum yang akan digunakan oleh seluruh aplikasi untuk menangani kesalahan.

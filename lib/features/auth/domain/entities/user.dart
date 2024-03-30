@@ -1,0 +1,1 @@
+// Mewakili pengguna yang telah terotentikasi.

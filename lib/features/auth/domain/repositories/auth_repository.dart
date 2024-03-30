@@ -1,0 +1,1 @@
+// interface yg mendefinisikan kontrak untuk authentikasi pengguna

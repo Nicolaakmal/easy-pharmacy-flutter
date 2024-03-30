@@ -1,0 +1,1 @@
+// Berisi fungsi validator input, misalnya untuk memvalidasi email atau password.

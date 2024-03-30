@@ -1,0 +1,1 @@
+// Provider yang mengelola state terkait autentikasi, seperti status login dan data pengguna.
