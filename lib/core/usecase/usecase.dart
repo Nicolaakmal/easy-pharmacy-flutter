@@ -1,1 +1,0 @@
-// Template abstrak untuk use cases, memfasilitasi implementasi SOLID, terutama prinsip single responsibility dan dependency inversion.

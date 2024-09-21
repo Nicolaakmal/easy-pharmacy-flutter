@@ -1,3 +1,5 @@
-export 'pages/login_page.dart';
-export 'pages/register_page.dart';
-export 'providers/auth_provider.dart';
+export 'pages/login_screen.dart';
+export 'pages/register_screen.dart';
+export 'bloc/auth_bloc.dart';
+export 'bloc/auth_event.dart';
+export 'bloc/auth_state.dart';

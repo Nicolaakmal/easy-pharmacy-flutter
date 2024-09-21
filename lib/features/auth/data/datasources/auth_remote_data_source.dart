@@ -1,1 +1,0 @@
-//  Interface untuk menyimpan dan mengambil data autentikasi pengguna (misalnya token) dari penyimpanan lokal.

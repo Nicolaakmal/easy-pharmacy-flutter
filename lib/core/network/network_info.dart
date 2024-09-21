@@ -1,1 +1,0 @@
-// Kelas untuk memeriksa koneksi jaringan.

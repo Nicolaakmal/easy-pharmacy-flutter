@@ -1,0 +1,82 @@
+[
+    {
+        "id": 11,
+        "name": "Mixagrip",
+        "description": "Obat flu yang meredakan demam, pusing, dan gejala flu lainnya.",
+        "price": 3000,
+        "stock": 150,
+        "image": "https://images.tokopedia.net/img/cache/700/product-1/2020/3/9/6936570/6936570_1c6b1a10-bf94-49a4-9e79-fc5ce2ca785b_700_700"
+    },
+    {
+        "id": 12,
+        "name": "Betadine",
+        "description": "Antiseptik untuk membersihkan luka dan mencegah infeksi.",
+        "price": 25000,
+        "stock": 80,
+        "image": "https://images.tokopedia.net/img/cache/700/product-1/2019/12/5/4516689/4516689_1f5f498b-3ce6-4d48-a7ec-8a97ca6b7e37_2048_2731"
+    },
+    {
+        "id": 13,
+        "name": "Paramex",
+        "description": "Obat sakit kepala dan nyeri lainnya yang efektif.",
+        "price": 5000,
+        "stock": 100,
+        "image": "https://images.tokopedia.net/img/cache/700/product-1/2019/10/21/5024249/5024249_3fb1123e-0d41-4825-9774-a0b5ac085f32_600_600"
+    },
+    {
+        "id": 14,
+        "name": "Neozep",
+        "description": "Obat yang meredakan gejala flu, seperti demam, sakit kepala, dan tersumbatnya hidung.",
+        "price": 2000,
+        "stock": 140,
+        "image": "https://images.tokopedia.net/img/cache/700/product-1/2020/7/8/10213230/10213230_2f146f39-cf74-4094-b4f4-30f9e20f9bfd_800_800"
+    },
+    {
+        "id": 15,
+        "name": "Panadol",
+        "description": "Obat untuk meredakan demam dan sakit kepala yang terpercaya.",
+        "price": 2000,
+        "stock": 180,
+        "image": "https://images.tokopedia.net/img/cache/700/product-1/2018/12/19/2513441/2513441_647f5e9e-9e07-48cc-9286-8b4132bd4fa8_1080_1080"
+    },
+    {
+        "id": 16,
+        "name": "Hufagrip",
+        "description": "Obat batuk dan flu yang juga meredakan demam dan nyeri yang menyertainya.",
+        "price": 7000,
+        "stock": 110,
+        "image": "https://images.tokopedia.net/img/cache/700/product-1/2019/12/26/7131903/7131903_46371dab-680c-4368-8537-df67e6976ccf_2048_2048"
+    },
+    {
+        "id": 17,
+        "name": "Decolgen",
+        "description": "Obat flu yang efektif untuk meredakan demam, hidung tersumbat, dan sakit kepala.",
+        "price": 3000,
+        "stock": 125,
+        "image": "https://images.tokopedia.net/img/cache/700/product-1/2020/4/16/2513441/2513441_f6695b82-64a6-4a73-860b-fd7d5fb6c47a_1080_1080"
+    },
+    {
+        "id": 18,
+        "name": "Dulcolax",
+        "description": "Obat pencahar yang membantu mengatasi sembelit.",
+        "price": 10000,
+        "stock": 95,
+        "image": "https://images.tokopedia.net/img/cache/700/product-1/2019/8/6/2877235/2877235_5ae54f0e-2b0e-455f-9bca-a77609d94238_2048_1367"
+    },
+    {
+        "id": 19,
+        "name": "Actifed",
+        "description": "Obat kombinasi untuk meredakan gejala flu dan alergi seperti bersin, pilek, dan hidung tersumbat.",
+        "price": 4000,
+        "stock": 70,
+        "image": "https://images.tokopedia.net/img/cache/700/product-1/2018/12/19/2583944/2583944_46ecb95b-9f9a-4ad1-8d61-f8c0ef0ea3f9_1080_1080"
+    },
+    {
+        "id": 20,
+        "name": "Vicks Formula 44",
+        "description": "Sirup batuk yang meredakan batuk kering dan batuk berdahak.",
+        "price": 15000,
+        "stock": 85,
+        "image": "https://images.tokopedia.net/img/cache/700/product-1/2020/4/10/2583944/2583944_4e00a2c3-8dc5-4ad3-af7d-7f57b0a4be83_2048_1365"
+    }
+]

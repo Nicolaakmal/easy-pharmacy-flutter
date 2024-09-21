@@ -1,1 +1,0 @@
-// representasi data pengguna yang digunakan untuk berkomunikasi dengan backend atau penyimpanan lokal

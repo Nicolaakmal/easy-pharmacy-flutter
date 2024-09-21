@@ -1,1 +1,0 @@
-// Interface untuk berkomunikasi dengan API untuk proses autentikasi.
