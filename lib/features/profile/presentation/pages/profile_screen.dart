@@ -64,7 +64,7 @@ class ProfileScreen extends StatelessWidget {
                           state.user.userData.fullName,
                           style: Theme.of(context)
                               .textTheme
-                              .headline6
+                              .bodySmall
                               ?.copyWith(color: Colors.white),
                         ),
                         const SizedBox(height: 4),
@@ -72,7 +72,7 @@ class ProfileScreen extends StatelessWidget {
                           state.user.userData.email,
                           style: Theme.of(context)
                               .textTheme
-                              .subtitle1
+                              .bodyMedium
                               ?.copyWith(color: Colors.white),
                         ),
                       ],

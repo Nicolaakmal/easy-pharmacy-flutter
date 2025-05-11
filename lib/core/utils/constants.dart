@@ -1,24 +1,31 @@
-const String baseUrlAuth = "http://103.196.152.113:3000/user";
-const String baseUrlHome = "http://103.196.152.113:3000/drug";
-const String baseUrlCart = "http://103.196.152.113:3000/cart";
-const String baseUrlOrder = "http://103.196.152.113:3000/order";
+const String _host = 'localhost';
+const int _port = 3000;
 
-const String registerEndpoint = "$baseUrlAuth/register";
-const String loginEndpoint = "$baseUrlAuth/login";
+/* ---------- base paths ---------- */
+const String _baseAuth = 'http://$_host:$_port/user';
+const String _baseDrug = 'http://$_host:$_port/drug';
+const String _baseCart = 'http://$_host:$_port/cart';
+const String _baseOrder = 'http://$_host:$_port/order';
 
-const String drugListEndpoint = "$baseUrlHome/list";
-const String drugLengthEndpoint = "$baseUrlHome/datalength";
+/* ---------- auth ---------- */
+const String registerEndpoint = '$_baseAuth/register';
+const String loginEndpoint = '$_baseAuth/login';
 
-const String addItemToCartEndpoint = "$baseUrlCart/add";
-const String getCartItemsEndpoint = "$baseUrlCart/list";
-const String updateCartItemQuantityEndpoint = "$baseUrlCart/updatequantity";
-const String deleteCartItemEndpoint = "$baseUrlCart/delete";
-const String checkoutOrderEndpoint =
-    "http://103.196.152.113:3000/order/placedorder";
+/* ---------- drug ---------- */
+const String drugListEndpoint = '$_baseDrug/list';
+const String drugLengthEndpoint = '$_baseDrug/datalength';
 
-const String getOrderDetailsEndpoint = "$baseUrlOrder/detail";
-const String payOrderEndpoint = "$baseUrlOrder/paid";
-const String getUnpaidOrdersEndpoint = "$baseUrlOrder/unpaidlist";
-const String getPaidOrdersEndpoint = "$baseUrlOrder/paidlist";
-const String cancelOrderEndpoint = "$baseUrlOrder/cancel";
-const String getCancelledOrdersEndpoint = "$baseUrlOrder/cancellist";
+/* ---------- cart ---------- */
+const String addItemToCartEndpoint = '$_baseCart/add';
+const String getCartItemsEndpoint = '$_baseCart/list';
+const String updateCartItemQuantityEndpoint = '$_baseCart/updatequantity';
+const String deleteCartItemEndpoint = '$_baseCart/delete';
+
+/* ---------- order ---------- */
+const String checkoutOrderEndpoint = '$_baseOrder/placedorder';
+const String getOrderDetailsEndpoint = '$_baseOrder/detail';
+const String payOrderEndpoint = '$_baseOrder/paid';
+const String getUnpaidOrdersEndpoint = '$_baseOrder/unpaidlist';
+const String getPaidOrdersEndpoint = '$_baseOrder/paidlist';
+const String cancelOrderEndpoint = '$_baseOrder/cancel';
+const String getCancelledOrdersEndpoint = '$_baseOrder/cancellist';
