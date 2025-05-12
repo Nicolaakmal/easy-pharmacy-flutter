@@ -9,10 +9,7 @@ Easy Pharmacy adalah platform farmasi online berbasis Mobile App yang memudahkan
 
 ## Demo
 
-<video src="assets/demo.mp4" controls width="360">
-  Browser-mu tidak mendukung video.  
-  <a href="assets/demo.mp4">Unduh demo.mp4</a>
-</video>
+![Demo](assets/demo.gif)
 
 ## Teknologi dan Arsitektur
 
