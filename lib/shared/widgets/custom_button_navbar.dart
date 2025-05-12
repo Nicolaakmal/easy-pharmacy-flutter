@@ -9,7 +9,7 @@ class CustomBottomNavBar extends StatefulWidget {
     Key? key,
     required this.currentIndex,
     required this.onTap,
-    this.isShifting = false,
+    this.isShifting = true,
   }) : super(key: key);
 
   @override
@@ -19,32 +19,41 @@ class CustomBottomNavBar extends StatefulWidget {
 class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
   @override
   Widget build(BuildContext context) {
+    ThemeData theme = Theme.of(context);
+
     return BottomNavigationBar(
-      type: widget.isShifting ? BottomNavigationBarType.shifting : BottomNavigationBarType.fixed,
+      backgroundColor: Colors.white,
+      type: widget.isShifting
+          ? BottomNavigationBarType.shifting
+          : BottomNavigationBarType.fixed,
       currentIndex: widget.currentIndex,
       onTap: widget.onTap,
-      items: [
+      items: <BottomNavigationBarItem>[
         BottomNavigationBarItem(
-          icon: Icon(Icons.home),
+          icon: const Icon(Icons.home, size: 24),
           label: 'Home',
-          backgroundColor: widget.isShifting ? Colors.blue : null,
+          backgroundColor: widget.isShifting
+              ? theme.primaryColor
+              : Colors.white, // Uses theme primary color when shifting
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.search),
-          label: 'Search',
-          backgroundColor: widget.isShifting ? Colors.red : null,
+          icon: const Icon(Icons.history, size: 24),
+          label: 'History',
+          backgroundColor:
+              widget.isShifting ? theme.primaryColor : Colors.white,
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.notifications),
-          label: 'Notifications',
-          backgroundColor: widget.isShifting ? Colors.green : null,
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.account_circle),
+          icon: const Icon(Icons.person, size: 24),
           label: 'Profile',
-          backgroundColor: widget.isShifting ? Colors.purple : null,
+          backgroundColor:
+              widget.isShifting ? theme.primaryColor : Colors.white,
         ),
       ],
+      selectedItemColor: theme.colorScheme.secondary,
+      unselectedItemColor: theme.colorScheme.onSurface.withOpacity(0.6),
+      showUnselectedLabels: true,
+      selectedLabelStyle: const TextStyle(fontWeight: FontWeight.bold),
+      unselectedLabelStyle: const TextStyle(color: Colors.grey),
     );
   }
 }

@@ -1,66 +1,34 @@
-// import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
-// class AppThemes {
-//   static final lightTheme = ThemeData(
-//     brightness: Brightness.light,
-//     primarySwatch: Colors.blue,
-//     colorScheme: ColorScheme.light(
-//       secondary: Colors.blueAccent, // previously accentColor
-//     ),
-//     scaffoldBackgroundColor: Colors.white,
-//     appBarTheme: AppBarTheme(
-//       color: Colors.blue,
-//       iconTheme: IconThemeData(color: Colors.white),
-//       titleTextStyle: TextStyle(color: Colors.white, fontSize: 20.0), // corrected from textTheme
-//     ),
-//     textButtonTheme: TextButtonThemeData(
-//       style: TextButton.styleFrom(primary: Colors.blue),
-//     ),
-//     floatingActionButtonTheme: FloatingActionButtonThemeData(
-//       backgroundColor: Colors.blue,
-//       foregroundColor: Colors.white,
-//     ),
-//   );
-
-//   static final darkTheme = ThemeData(
-//     brightness: Brightness.dark,
-//     primarySwatch: Colors.teal,
-//     colorScheme: ColorScheme.dark(
-//       secondary: Colors.tealAccent, // previously accentColor
-//     ),
-//     scaffoldBackgroundColor: Color(0xFF121212),
-//     appBarTheme: AppBarTheme(
-//       color: Color(0xFF1E1E1E),
-//       iconTheme: IconThemeData(color: Colors.tealAccent),
-//       titleTextStyle: TextStyle(color: Colors.tealAccent, fontSize: 20.0), // corrected from textTheme
-//     ),
-//     textButtonTheme: TextButtonThemeData(
-//       style: TextButton.styleFrom(primary: Colors.tealAccent),
-//     ),
-//     floatingActionButtonTheme: FloatingActionButtonThemeData(
-//       backgroundColor: Colors.teal,
-//       foregroundColor: Colors.black,
-//     ),
-//   );
-
-//   static final customTheme = ThemeData(
-//     brightness: Brightness.light,
-//     primaryColor: Colors.purple,
-//     colorScheme: ColorScheme.light(
-//       secondary: Colors.purpleAccent, // previously accentColor
-//     ),
-//     scaffoldBackgroundColor: Colors.white,
-//     appBarTheme: AppBarTheme(
-//       color: Colors.purple,
-//       iconTheme: IconThemeData(color: Colors.white),
-//       titleTextStyle: TextStyle(color: Colors.white, fontSize: 20.0), // corrected from textTheme
-//     ),
-//     textButtonTheme: TextButtonThemeData(
-//       style: TextButton.styleFrom(primary: Colors.purple),
-//     ),
-//     floatingActionButtonTheme: FloatingActionButtonThemeData(
-//       backgroundColor: Colors.purple,
-//       foregroundColor: Colors.white,
-//     ),
-//   );
-// }
+class AppTheme {
+  static ThemeData get lightTheme {
+    return ThemeData(
+      brightness: Brightness.light,
+      primaryColor: const Color(0xFF2196F3),
+      scaffoldBackgroundColor: Colors.white,
+      colorScheme: const ColorScheme.light(
+        primary: const Color(0xFF2196F3),
+        secondary: Color(0xFF90CAF9),
+        onPrimary: Colors.white,
+        background: Colors.white,
+        error: Color(0xFFE53935),
+      ),
+      appBarTheme: const AppBarTheme(
+        backgroundColor: Color(0xFF1976D2),
+        iconTheme: IconThemeData(color: Colors.white),
+        titleTextStyle: TextStyle(
+          fontSize: 24.0,
+          fontWeight: FontWeight.bold,
+          color: Colors.white,
+        ),
+      ),
+      floatingActionButtonTheme: const FloatingActionButtonThemeData(
+        backgroundColor: Color(0xFF90CAF9),
+        foregroundColor: Colors.white,
+      ),
+      textButtonTheme: TextButtonThemeData(
+        style: TextButton.styleFrom(foregroundColor: const Color(0xFF2196F3)),
+      ),
+    );
+  }
+}
